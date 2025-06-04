@@ -1,0 +1,5 @@
+__pycache__
+*.pptx
+test*
+logs/
+*.ipynb
