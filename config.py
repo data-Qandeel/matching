@@ -37,7 +37,7 @@ MAX_LEN = 32
 MODEL_CONFIG = {
     'embedding_dim': 128,
     'rnn_hidden_dim': 256,
-    'num_layers': 1,
+    'num_layers': 3,
     'dropout': 0.5,
     'padding_idx': 0,
     'ff_hidden_dim': 2048,
@@ -47,7 +47,7 @@ MODEL_CONFIG = {
 # --- Training Configuration ---
 TRAINING_CONFIG = {
     'num_epochs': 50,
-    'batch_size': 2048,
+    'batch_size': 32,
     'learning_rate': 1e-4,
     'weight_decay': 0.01,
     'temperature': 0.1,
